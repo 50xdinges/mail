@@ -7,7 +7,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $message = $_POST["message"];
 
     // Email settings
-    $to = "peterveltman@gc-webhosting.nl"; // Replace with your email
+    $to = "honzihermanek@gc-webhosting.nl"; // Replace with your email
     $subject = "New Contact Form Submission";
     $body = "Name: $name\nEmail: $email\nMessage: $message";
     $headers = "From: $email";
